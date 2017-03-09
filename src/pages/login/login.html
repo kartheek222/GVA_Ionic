@@ -4,15 +4,29 @@
   See http://ionicframework.com/docs/v2/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
 
-  <ion-navbar>
-    <ion-title>login</ion-title>
-  </ion-navbar>
+<ion-content class="login-content" padding>
+    <div>
+        <img style="height:40px;margin: auto; display: block;" src="assets/ic_logo.png" />
+    </div>   
+<div class="passcode-wrapper">
 
-</ion-header>
-
-
-<ion-content padding>
-
+    <div class="passcode-container">
+        <div class="passcode-content">
+           
+        <form  class = "listClass">
+             <ion-item  class="item-style">
+                <ion-label stacked>GVA Login Initials</ion-label>
+                <ion-input class = "login-initials" type="text"></ion-input>
+            </ion-item>
+            <!--
+            <ion-label stacked>GVA Login Initials</ion-label>
+            <ion-input class = "login-initials" type="text"></ion-input>
+            -->
+            <button ion-button block >Go</button>  
+            
+        </form>
+        </div>
+    </div>
+</div>
 </ion-content>

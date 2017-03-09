@@ -17,6 +17,6 @@ export class SplashPage {
 
     setTimeout(function(){
       navCtrl.setRoot(LoginPage);
-    }, 5000);
+    }, 500);
   }
 }
